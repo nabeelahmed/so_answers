@@ -6,7 +6,7 @@
 import dropbox
 import time
 
-ACCESS_TOKEN = 'GfheDQ9SCcEAAAAAAAAx-qU64N5Tnp2mQ9-CQ6pdoSJHnboz21ylu6FSiw9L2J-v '
+ACCESS_TOKEN = '<your-app-token>'
 
 dbx = dropbox.Dropbox(ACCESS_TOKEN)
 acc_info = dbx.users_get_current_account()
